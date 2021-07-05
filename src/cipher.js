@@ -17,20 +17,17 @@ export const cipher = {
             let unicodeCharacter = string.charCodeAt(i);
             //String.fromCharCode() método estático que devuelve una cadena creada mediante el uso de una secuencia de valores Unicode especificada.
             let letter = String.fromCharCode((unicodeCharacter - 65 + parseInt(offset)) % 26 + 65);
-            encryptedMessage = encryptedMessage + letter
+            encryptedMessage = encryptedMessage + letter;
         }
         return encryptedMessage;
     },
 
     decode: (offset, string) => {
         let encryptedMessage = '';
-        //El metodo charCodeAt()devuelve el Unicode del carácter en el índice especificado en una cadena.
         for (let i = 0; i < string.length; i++) {
             let unicodeCharacter = string.charCodeAt(i);
-            //String.fromCharCode() método estático que devuelve una cadena creada mediante el uso de una secuencia de valores Unicode especificada.
             let letter = String.fromCharCode((unicodeCharacter - 65 - parseInt(offset)) % 26 + 65);
-            encryptedMessage = encryptedMessage + letter
-
+            encryptedMessage = encryptedMessage + letter;
         }
         return encryptedMessage;
     }
