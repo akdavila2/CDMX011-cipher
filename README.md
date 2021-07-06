@@ -52,4 +52,10 @@ El producto Family Safely esta dirigido a la familia, con la finalidad que se re
  La familia es lo mas importante que tenemos, y mantener una comunicación siempre es fundamental. Con Family Safely buscamos que exista seguridad en temas familiares que no queramos que personas ajenas tengan conocimiento, por ello velamos por la discreción y ciframos sus mensajes de una manera sencilla.
 
 ## 4. Prototipo.
-<img src= 'src/img/prototypeVersion2.png>
+Realice tres prototipos para la página, basandome en un diseño sencillo. Pidiendo feedback a 3 compañeras del bootcamp, todas eligieron la misma opcion.
+Opción 1:
+<img src= "src/img/prototypeFamilia.png">
+Opción 2:
+<img src= "src/img/prototypePasteles.png">
+Opción 3: La empleada.
+<img src= "src/img/prototypeVersion2.png">

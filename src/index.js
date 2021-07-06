@@ -17,7 +17,10 @@ code.addEventListener('click', (event) => {
     message = message.toUpperCase();
     console.log(message);
     let positions = document.getElementById('positions').value;
-    encryptedMessage.innerHTML = cipher.encode(positions, message);
+    console.log('Segunda ronda: estoy aqui')
+    const result = cipher.encode(positions, message);
+    console.log(result, 'segunda ronda result', encryptedMessage, encryptedMessage.innerHTML);
+    encryptedMessage.innerHTML = result;
 });
 
 decode.addEventListener('click', (event) => {
