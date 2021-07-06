@@ -9,7 +9,8 @@ const positions = document.getElementById('positions');
 
 code.addEventListener('click', (event) => {
     // Cancela el evento si este es cancelable, sin detener el resto del funcionamiento del evento, es decir, 
-    // puede ser llamado de nuevo.
+    // puede ser llamado de nuevo. 
+    //puedes mostrar una mejor experiencia de usuario por no recargar la pagina
     event.preventDefault();
     let offset = positions.value;
     const result = cipher.encode(offset, message.value.toUpperCase());
