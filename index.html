@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Caesar Cipher - Family Safely</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="root"></div>
+    <section class="chat">
+        <section class="chatContainer">
+            <img src="img/FamilyHeart.png" class="chatImg" alt="logoFamilySafely">
+            <div class="chatContainerDiv">
+                <!--"required" nos permite comprobar que el campo ha sido rellenado -->
+                <input class="input" type="number" min="0" max="100" placeholder="Posiciones de desplazamiento" id="positions" required/>
+                <textarea class="input" name="textarea" rows="10" cols="50" placeholder="Escribe tu mensaje" id="message" required></textarea>
+                <div class="posicionamientoButton">
+                    <button class="button" id="btnCode">Cifrar</button>
+                    <button class="button" id="btnDecode">Descifrar</button>
+                </div>
+                <div class="encryptedMessage" id="encryptedMessage"></div>
+                <!-- "reset " representa un botón que, cuando es presionado, restaura todos los campos del formulario -->
+                <button class="button" type="reset" id="btnRemove">Eliminar</button>
+            </div>
+        </section>
+    </section>
+    <script src="index.js" type="module"></script>
+</body>
+
+</html>
