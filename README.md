@@ -5,6 +5,7 @@
 * [2. Quiénes son los principales usuarios de producto](#2-quiénes-son-los-principales-usuarios-deproducto)
 * [3. Cuáles son los objetivos de estos usuarios en relación con tu producto.](#3-cuáles-son-los-objetivos-de-estos-usuarios-en-relación-con-tu-producto.)
 * [4. Cómo crees que el producto que estás creando está resolviendo sus problemas.](#4-cómo-crees-que-el-producto-que-estás-creando-está-resolviendo-sus-problemas.)
+*[4. Interfaz de usuario (UI)](#4-interfaz-de-usuario-UI)
 * [5. Prototipo](#5-prototipo)
 
 ## 1. Preámbulo
@@ -51,11 +52,22 @@ El producto Family Safely esta dirigido a la familia, con la finalidad que se re
 
  La familia es lo mas importante que tenemos, y mantener una comunicación siempre es fundamental. Con Family Safely buscamos que exista seguridad en temas familiares que no queramos que personas ajenas tengan conocimiento, por ello velamos por la discreción y ciframos sus mensajes de una manera sencilla.
 
-## 4. Prototipo.
+## 4. Interfaz de usuario (UI)
+
+La interfaz permite al usuario:
+
+    Elegir un desplazamiento (offset) indicando cuántas posiciones queremos que el cifrado desplace cada caracter.
+    Insertar un mensaje (texto) que queremos cifrar.
+    Ver el resultado del mensaje cifrado.
+    Insertar un mensaje (texto) a descifrar.
+    Ver el resultado del mensaje descifrado.
+
+
+## 5. Prototipos.
 Realice tres prototipos para la página, basandome en un diseño sencillo. Pidiendo feedback a 3 compañeras del bootcamp, todas eligieron la misma opcion.
-Opción 1:
-<img src= "src/img/prototypeFamilia.png">
-Opción 2:
-<img src= "src/img/prototypePasteles.png">
-Opción 3: La empleada.
+Opción 1:<br>
+<img src= "src/img/prototypeFamilia.png"><br>
+Opción 2:<br>
+<img src= "src/img/prototypePasteles.png"><br>
+Opción 3: La empleada.<br>
 <img src= "src/img/prototypeVersion2.png">
