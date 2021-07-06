@@ -1,0 +1,84 @@
+            body {
+                margin: 0;
+                font-family: 'Muli', 'sans-serif';
+            }
+            
+            .chat {
+                background: white;
+                ;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                padding: 20px;
+            }
+            
+            .chatImg {
+                width: 350px;
+            }
+            /* (padding-top, padding-right, padding-bottom, padding-left). */
+            
+            .chatContainer {
+                background-color: white;
+                border: 2px solid white;
+                border-radius: 40px;
+                color: #351F39;
+                padding: 40px 68px 40px;
+                height: 700px;
+                width: 300px;
+                display: flex;
+                justify-content: space-around;
+                flex-direction: column;
+            }
+            
+            .chatContainerDiv {
+                display: flex;
+                flex-direction: column;
+                padding-bottom: 100px;
+            }
+            /* overflow-wrapes útil cuando se aplica a elementos
+             que contienen contenido generado por el usuario no moderado (como secciones de comentarios). */
+            
+            .encryptedMessage {
+                border: 2px solid #719FB0;
+                border-radius: 15px;
+                padding: 10px;
+                width: 300px;
+                height: 150px;
+                margin: 10px 10px;
+                overflow-wrap: break-word;
+            }
+            
+            .input {
+                border-left: 0px;
+                border-top: 0px;
+                border-right: 0px;
+                border-bottom: 2px solid #719FB0;
+                font-size: 16px;
+                font-family: 'Muli', 'sans-serif';
+                margin-bottom: 20px;
+                outline: none;
+                height: 50px;
+            }
+            
+             ::placeholder {
+                color: #726A95;
+            }
+            
+            .button {
+                background-color: #351F39;
+                border: none;
+                border-radius: 25px;
+                font-size: 16px;
+                cursor: pointer;
+                color: white;
+                height: 40px;
+                width: 290px;
+                font-family: 'Muli', 'sans-serif';
+                font-weight: bold;
+            }
+            
+            .posicionamientoButton {
+                display: flex;
+                justify-content: center;
+            }
