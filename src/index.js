@@ -27,5 +27,5 @@ clean.addEventListener('click', (event) => {
     event.preventDefault();
     message.value = '';
     positions.value = '';
-    encryptedMessage.value = '';
+    encryptedMessage.innerHTML = '';
 });
