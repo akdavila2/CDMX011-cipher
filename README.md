@@ -71,3 +71,4 @@ Opción 2:<br>
 <img src= "src/img/prototypePasteles.png"><br>
 Opción 3: La empleada.<br>
 <img src= "src/img/prototypeVersion2.png">
+
