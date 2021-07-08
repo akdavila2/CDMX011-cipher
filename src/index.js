@@ -13,14 +13,14 @@ code.addEventListener('click', (event) => {
     //puedes mostrar una mejor experiencia de usuario por no recargar la pagina
     event.preventDefault();
     let offset = positions.value;
-    const result = cipher.encode(offset, message.value.toUpperCase());
+    const result = cipher.encode(offset, message.value);
     encryptedMessage.innerHTML = result;
 });
 
 decode.addEventListener('click', (event) => {
     event.preventDefault();
     let offset = positions.value;
-    const result = cipher.decode(offset, message.value.toUpperCase());
+    const result = cipher.decode(offset, message.value);
     encryptedMessage.innerHTML = result;
 });
 
