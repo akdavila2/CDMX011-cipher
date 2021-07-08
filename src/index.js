@@ -12,15 +12,13 @@ code.addEventListener('click', (event) => {
     // puede ser llamado de nuevo. 
     //puedes mostrar una mejor experiencia de usuario por no recargar la pagina
     event.preventDefault();
-    let offset = positions.value;
-    const result = cipher.encode(offset, message.value);
+    const result = cipher.encode(positions.value, message.value);
     encryptedMessage.innerHTML = result;
 });
 
 decode.addEventListener('click', (event) => {
     event.preventDefault();
-    let offset = positions.value;
-    const result = cipher.decode(offset, message.value);
+    const result = cipher.decode(positions.value, message.value);
     encryptedMessage.innerHTML = result;
 });
 

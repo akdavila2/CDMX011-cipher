@@ -40,10 +40,9 @@ export const cipher = {
         for (let i = 0; i < string.length; i++) {
             let unicodeCharacter = string.charCodeAt(i);
             if (unicodeCharacter >= 32 && unicodeCharacter <= 64) {
-                let letter = String.fromCharCode((unicodeCharacter - 64 + parseInt(offset)) % 26 + 64);
+                let letter = String.fromCharCode((unicodeCharacter - 64 - parseInt(offset)) % 26 + 64);
                 encryptedMessage = encryptedMessage + letter;
-            }
-            if (unicodeCharacter >= 65 && unicodeCharacter <= 90) {
+            } else if (unicodeCharacter >= 65 && unicodeCharacter <= 90) {
                 let letter = String.fromCharCode((unicodeCharacter - 90 - parseInt(offset)) % 26 + 90);
                 encryptedMessage = encryptedMessage + letter;
             } else if (unicodeCharacter >= 97 && unicodeCharacter <= 122) {
