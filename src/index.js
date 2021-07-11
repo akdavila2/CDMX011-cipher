@@ -1,5 +1,5 @@
 //La sentencia import se usa para importar funciones que han sido exportadas desde un módulo externo.
-import { cipher } from './cipher.js';
+import cipher from './cipher.js';
 const code = document.getElementById('btnCode');
 const decode = document.getElementById('btnDecode');
 const encryptedMessage = document.getElementById('encryptedMessage');
